@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: rgb(113, 113, 192);
+}
+.header{
+    display: flex;
+    height: 70px;
+    /* border: 1px solid red; */
+    background-color: rgb(11, 11, 80);
+    padding: 0% 3% 0% 3%;
+    justify-content: space-between;
+}
+.header .left{
+    /* border: 1px solid rgb(0, 0, 0); */
+    display: flex;
+}
+.header .left .logo img{
+  height: 90%;
+  width: 90%;
+  border-radius: 50px;
+}
+.header .left ul{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid saddlebrown; */
+    justify-content: space-around;
+    width: 550px;
+}
+.header .left ul li{
+    list-style-type: none;
+    font-family: sans-serif;
+    color: #ddd5d5;
+    font-size: 20px;
+}
+.header .right{
+    /* border: 1px solid rgb(247, 244, 244); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+}
+.header .right .mail{
+    color: #ddd5d5;
+    font-family: sans-serif;
+}
+.header .right .box{
+    height: 50px;
+    width: 35%;
+    font-family: sans-serif;
+    border-radius: 2px;
+    background-color: blanchedalmond;
+    padding: 5% 0% 0% 0%;
+}
+.header .right .box i{
+    margin: 0% 6% 0% 2%;
+}
+
+.body-div{
+    /* border: 1px solid rgb(0, 0, 0); */
+    padding: 6% 6% 0% 6%;
+    font-family: sans-serif;
+    background-color: rgb(113, 113, 192);
+}
+.body-top{
+    display: flex;
+}
+.body-top .text1{
+    margin: 0% 2% 0% 0%;
+    padding: 0.4% 0% 0.4% 0%;
+    text-align: center;
+    border: 1px solid rgb(11, 11, 80);
+    width: 110px;
+    border-radius: 4px;
+}
+.body-top .text2{
+    margin: 0% 2% 0% 0%;
+    padding: 0.4% 0% 0.4% 0%;
+    text-align: center;
+    border: 1px solid rgb(11, 11, 80);
+    width: 140px;
+    border-radius: 4px;
+}
+.body-div .heading{
+    margin: 1% 0% 0% 0%;
+    padding: 1% 0% 1% 0%;
+    /* background-color: blue; */
+    font-size: 45px;
+    color: white;
+    font-weight: bolder;
+    word-spacing: 12px;
+}
+.heading .wel{
+    color: rgb(11, 11, 80);
+}
+.body-div p{
+    width: 35%;
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 29px;
+}
+.body-div .three-div{
+    margin: 3% 0% 7% 0%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.three-div .project{
+    margin: 0% 2% 0% 0%;
+    padding: 0.4% 0% 0.4% 0%;
+    text-align: center;
+    border: 1px solid rgb(11, 11, 80);
+    width: 140px;
+    border-radius: 4px;
+}
+.three-div .project i{
+    padding-left: 8px;
+}
+.three-div .get-in-touch{
+     margin: 0% 2% 0% 0%;
+    padding: 0.4% 0% 0.4% 0%;
+    text-align: center;
+    border: 1px solid rgb(11, 11, 80);
+    width: 140px;
+    border-radius: 4px;
+}
+.three-div .download{
+   margin: 0% 2% 0% 0%;
+    padding: 0.4% 0% 0.4% 0%;
+    text-align: center;
+    border: 1px solid rgb(11, 11, 80);
+    width: 190px;
+    border-radius: 4px;
+}
+.aboutme-main-div{
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 2% 0% 2% 0%;
+    margin: 3% 0% 3% 0%;
+}
+.aboutme-main-div .about-heading{
+    display: flex;
+}
+.aboutme-main-div{
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 2% 0% 2% 0%;
+    margin: 3% 0% 3% 0%;
+    display: flex;
+}
+.aboutme-main-div .left-image-div{
+    /* border: 1px solid black; */
+    width: 80%;
+}
+.left-image-div img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.aboutme-main-div .information-div{
+    padding: 2% 0% 0% 3%;
+    width: 100%;
+}
+.aboutme-main-div .about-heading{
+    padding: 0% 0% 2% 5%;
+    font-size: 25px;
+    color: rgb(11, 11, 80);
+    position: relative;
+}
+.about-heading::before{
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: rgb(11, 11, 80);
+}
+.aboutme-main-div .about-information{
+    font-size: 39px;
+    line-height: 49px;
+    padding: 2% 0% 2% 0%;
+}
+.aboutme-main-div .pera{
+    /* border: 1px solid red; */
+   padding: 1% 0% 1% 0%;
+   /* width: 35%; */
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 29px;
+
+}
+.aboutme-main-div .links{
+    /* border: 1px solid red; */
+   padding: 4% 0% 4% 0%;
+}
+.aboutme-main-div .links i{
+    font-size: 27px;
+    /* font-weight: bolder; */
+}
+.education-main-div{
+    /* border: 1px solid red; */
+    margin: 0% 0% 4% 0%;
+    padding: 4% 0% 4% 0%;
+    display: flex;
+}
+.edu-heading{
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+    color: rgb(11, 11, 80);
+    /* border: 1px solid red; */
+}
+.education-main-div .left-education-div{
+    border-right: 2px solid rgb(11, 11, 80);;
+    width: 50%;
+    /* height: 300px; */
+    position: relative;
+}
+
+.left-education-div::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -8px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: rgb(11, 11, 80);
+}
+/* .............................. */
+.education-main-div .right-education-div{
+    /* border: 1px solid rgb(90, 148, 9); */
+    width: 50%;
+    position: relative;
+    /* height: 300px; */
+}
+.right-education-div::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    /* right: -23px; */
+    left: -8.5px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: rgb(11, 11, 80);
+}
+
+.right-education-div .right-first-div{
+    border: 2px solid rgb(11, 11, 80);
+    border-radius: 2px;
+    padding: 2% 0% 2% 2%;
+    margin: 2% 2% 2% 2%;
+    /* height: 10px; */
+}
+.none{
+    border: none;
+    height: 220px;
+}
+.right-first-div .year{
+    padding: 0% 0% 2% 0%;
+   font-size: 20px;
+
+}
+.right-first-div .education{
+   font-size: 20px;
+    padding: 0% 0% 2% 0%;
+}
+.right-first-div .about-education{
+   font-size: 20px;
+   line-height: 30px;
+    padding: 0% 0% 2% 0%;
+}
+/* ............... */
+
+.left-education-div .left-first-div{
+     border: 2px solid rgb(11, 11, 80);
+    border-radius: 2px;
+    padding: 2% 0% 2% 2%;
+    margin: 2% 2% 2% 2%;
+    height: 200px;
+    position: relative;
+}
+.left-first-div::after{
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: -23px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: rgb(11, 11, 80);
+}
+.left-first-div .year{
+    padding: 0% 0% 2% 0%;
+   font-size: 20px;
+
+}
+.left-first-div .education{
+   font-size: 20px;
+    padding: 0% 0% 2% 0%;
+}
+.left-first-div .about-education{
+   font-size: 20px;
+   line-height: 30px;
+    padding: 0% 0% 2% 0%;
+}
+/* ................... */
+.right-education-div .none2{
+    border: none;
+    height: 200px;
+    width: 500px;
+    /* background-color: blue; */
+}
+.right-education-div .right-second-div{
+     border: 2px solid rgb(11, 11, 80);
+    border-radius: 2px;
+    padding: 2% 0% 2% 2%;
+    margin: 2% 2% 2% 2%;
+    height: 200px;
+    position: relative;
+}
+.right-second-div::before{
+    content: "";
+    position: absolute;
+    top: -20px;
+    /* right: -23px; */
+    left: -23px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: rgb(11, 11, 80);
+}
+
+.right-second-div .year{
+    padding: 0% 0% 2% 0%;
+   font-size: 20px;
+
+}
+.right-second-div .education{
+   font-size: 20px;
+    padding: 0% 0% 2% 0%;
+}
+.right-second-div .about-education{
+   font-size: 20px;
+   line-height: 30px;
+    padding: 0% 0% 2% 0%;
+}
+/* .............. */
+.skills-main-div{
+    /* border: 1px solid red; */
+    padding: 0% 6% 4% 6%;
+}
+.skills-main-div .skills-heading{
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+    color: rgb(11, 11, 80);
+    padding: 0% 0% 6% 0%;
+}
+.box-skills{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.skills-main-div .skills-1{
+    height: 230px;
+    width: 20%;
+    /* border: 1px solid rgb(11, 11, 80); */
+    padding: 0% 1% 0% 1%;
+    background-color: rgb(53, 53, 150);
+    color: #fff;
+    border-radius: 3px;
+}
+.skills-1 i{
+    font-size: 33px;
+    /* border: 1px solid red; */
+    margin: 15% 0% 0% 0%;
+}
+.skills-1 .about-html{
+    padding: 20% 0% 0% 0%;
+    font-size: 20px;
+
+}
+.get-in-touch-main-div {
+    /* border: 1px solid black; */
+    margin: 4% 0% 4% 0%;
+}
+.get-in-touch-main-div .contact-heading{
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+    color: rgb(11, 11, 80);
+    /* padding: 0% 0% 6% 0%; */
+}
+.get-in-touch-main-div .contact{
+    padding: 4% 0% 4% 0%;
+    margin: 4% 0% 4% 0%;
+    display: flex;
+    background-color: rgb(113, 113, 192);
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px 1px rgb(0,0,0,0.4) ;
+    /* border: 1px solid rgb(202, 43, 43); */
+    position: relative;
+    height: 600px;
+    z-index: 444;
+}
+.get-in-touch-main-div .contact .left-contact-div{
+    /* border: 1px solid rgb(43, 191, 202); */
+    width: 25%;
+    height: 350px;
+    background-color: rgb(113, 113, 192);
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px 1px rgb(0,0,0,0.4);
+    margin:0% 0% 0% 2%;
+    padding:0% 2% 0% 2%;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    z-index: 777px;
+}
+.contact .left-information{
+    width: 100%;
+    font-size: 40px;
+    color: rgb(11, 11, 80);
+    padding: 4% 0% 10% 0%;
+}
+ .information .icon1{
+    display: flex;
+    align-items: center;
+    margin: 9% 0% 9% 0%;
+ }
+ .information .icon1 i{
+    font-size: 20px;
+    margin: 0% 3% 0% 0%;
+ }
+.information .icon1 .e-mail{
+    margin:0% 0% 0% 2%;
+    font-size: 19px;
+}
+ .information .icon2{
+    display: flex;
+    align-items: center;
+    margin: 0% 0% 9% 0%;
+ }
+ .information .icon2 i{
+    font-size: 20px;
+    margin: 0% 3% 0% 0%;
+ }
+ .information .icon2 .phone{
+    margin:0% 0% 0% 2%;
+    font-size: 19px;
+}
+ .information .icon3{
+    display: flex;
+    align-items: center;
+    margin: 0% 0% 9% 0%;
+ }
+ .information .icon3 i{
+    font-size: 20px;
+    margin: 0% 3% 0% 0%;
+ }
+ .information .icon3 .location{
+    margin:0% 0% 0% 2%;
+    font-size: 19px;
+}
+
+.get-in-touch-main-div .contact .right-contact-div{
+    /* border: 1px solid rgb(10, 58, 61); */
+    z-index: -4;
+    box-shadow: 1px 1px 4px 1px rgb(0,0,0,0.4) ;
+    width: 60%;
+    height: 500px;
+    margin:0% 2% 0% 2%;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+}
+.right-contact-div .main-contact-div{
+    /* border: 1px solid rgb(43, 218, 230); */
+    margin: 0% 0% 0% 25%;
+}
+.right-contact-div .main-contact-div .right-heading{
+    font-size: 33px;
+    color: rgb(11, 11, 80);
+    margin:3% 0% 7% 0%;
+}
+.right-contact-div .main-contact-div .text{
+    font-size: 25px;
+}
+.right-contact-div .main-contact-div .text-a{
+    font-size: 25px;
+    margin: 2% 0% 2% 0%;
+}
+.right-contact-div .main-contact-div input{
+    width: 500px;
+    height: 32px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    margin: 2% 0% 2% 0%;
+    padding: 0% 0% 0% 2%;
+}
+.right-contact-div .main-contact-div textarea{
+    width: 500px;
+    height: 110px;
+    border: none;
+    outline: none;
+    padding: 2% 0% 0% 2%;
+}
+.last-part{
+    /* border: 1px solid rgb(164, 24, 24); */
+    box-shadow: 1px 1px 4px 1px rgb(0,0,0,0.4) ;
+    margin: 4% 0% 0% 0%;
+    padding: 0% 4% 0% 4%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.last-part .last-left{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 200px;
+}
+.last-part .last-left img{
+       height: 60px;
+     width: 60px;
+     border-radius: 50px;
+     margin: 5% 0% 0% 0%;
+      /* border: 1px solid rgb(6, 5, 5); */
+}
+.last-part .last-left .name{
+    /* border: 1px solid rgb(16, 11, 11); */
+    /* width: 150px; */
+    font-size: 20px;
+     padding: 14% 0% 0% 2%;
+    font-family: sans-serif;
+}
+.last-part .last-midd{
+    /* border: 1px solid red; */
+    font-family: sans-serif;
+     padding: 3% 0% 0% 2%;
+   
+}
+.last-part .last-right{
+    /* border: 1px solid red; */
+    font-family: sans-serif;
+     padding: 3% 0% 0% 2%;
+
+}
